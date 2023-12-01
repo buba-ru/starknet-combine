@@ -1,0 +1,35 @@
+{
+  "name": "starknet-combine",
+  "version": "1.0.0",
+  "description": "Software for automating interaction with projects based on the Starknet",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buba-ru/starknet-combine.git"
+  },
+  "keywords": [
+    "starknet",
+    "retrodrop"
+  ],
+  "author": "buba_ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buba-ru/starknet-combine/issues"
+  },
+  "homepage": "https://github.com/buba-ru/starknet-combine#readme",
+  "dependencies": {
+    "@scure/bip39": "^1.2.1",
+    "axios": "^1.6.2",
+    "ccxt": "^4.1.51",
+    "cli-progress": "^3.12.0",
+    "colors": "^1.4.0",
+    "ethers": "^5.7.2",
+    "fs-extra": "^11.1.1",
+    "l0k_swap-sdk": "github:10k-swap/10k_swap-sdk#main",
+    "log4js": "^6.9.1",
+    "optimist": "^0.6.1",
+    "starknet": "^5.19.5"
+  }
+}
